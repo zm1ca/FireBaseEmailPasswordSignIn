@@ -15,6 +15,13 @@ e1. check sign in on app launch
 e2. allow user to sign out with button
  */
 
+/* Shortcut:
+ 1. FirebaseAuth.Auth.auth().createUser(withEmail: email, password: password)
+ 2. FirebaseAuth.Auth.auth().signIn(withEmail: email, password: password)
+ 3. FirebaseAuth.Auth.auth().currentUser
+ 4. FirebaseAuth.Auth.auth().signOut()
+ */
+
 import UIKit
 import FirebaseAuth
 
